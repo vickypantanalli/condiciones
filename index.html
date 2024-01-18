@@ -14,11 +14,11 @@
 
 <button onclick="
     input1 = document.querySelector('#input1').value
-input2 = document.querySelector('#input2').value
-input3 = document.querySelector('#input3').value
-parrafo = document.querySelector('.stickers')
+    input2 = document.querySelector('#input2').value
+    input3 = document.querySelector('#input3').value
+    parrafo = document.querySelector('.stickers')
 
-suma = input1 + input2 + input3
+suma = Number(input1) + Number(input2) + Number(input3)
 
 if (suma <= 10) {
     parrafo.innerHTML= ('Llevas ' + suma + ' stickers')
