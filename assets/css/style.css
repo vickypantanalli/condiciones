@@ -3,6 +3,11 @@
     justify-content: center;
 }
 
+#uno {
+    text-align: center;
+    padding-top: 1em;
+}
+
 .input {
     display: flex;
     flex-direction: column;
