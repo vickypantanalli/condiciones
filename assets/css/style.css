@@ -1,8 +1,9 @@
+
+
 .entorno {
     display: flex;
+    justify-content: center;
 }
-
-
 
 .input {
     display: flex;
@@ -10,14 +11,13 @@
     padding: 10px;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 img {
     padding-bottom: 5px;
-}
-
-button {
-    margin-left: 23em;
-}
-
-h2 {
-    margin-left: 11em;
 }
