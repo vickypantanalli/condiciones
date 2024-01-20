@@ -3,13 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
 <body>
 
-    <input type="text" id="input1">
-    <input type="text" id="input2">
-    <input type="text" id="input3">
+<div class="entorno">
+    <div class="input">
+        <img src="https://placedog.net/200" alt="">
+        <input type="text" id="input1">
+    </div>
+
+    <div class="input">
+        <img src="https://placedog.net/200" alt="">
+        <input type="text" id="input2">
+    </div>
+
+    <div class="input">
+        <img src="https://placedog.net/200" alt="">
+        <input type="text" id="input3">
+    </div>
+</div>
+
+<h2 class="stickers"></h2>
 
 <button onclick="
     input1 = document.querySelector('#input1').value
@@ -26,7 +42,9 @@
     }
 ">Verificar</button>
 
-<p class="stickers"></p>
+
+
+
 
     <script src="assets/js/index.js"></script>
 </body>

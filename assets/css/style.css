@@ -1,0 +1,23 @@
+.entorno {
+    display: flex;
+}
+
+
+
+.input {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+img {
+    padding-bottom: 5px;
+}
+
+button {
+    margin-left: 23em;
+}
+
+h2 {
+    margin-left: 11em;
+}
